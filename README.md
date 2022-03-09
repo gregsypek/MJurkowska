@@ -2,7 +2,7 @@
 
 ![alt tag](./assets/shared/logo.png)
 
-**MJurkowska** Website made for fictionall company. Fully responsive with an easy to manage SCSS structure.
+**MJurkowska** Website made for fictional company. Fully responsive with an easy to manage CSS variables structure.
 
 just visit [https://gregsypek.github.io/MJurkowska](https://gregsypek.github.io/MJurkowska)!
 

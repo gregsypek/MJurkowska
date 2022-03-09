@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Our custom CSS -->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="burger-style.css" />
+		<title>Małgorzata Jurkowska</title>
+		<script defer src="./slider.js"></script>
+		<script defer src="./burger.js"></script>
+	</head>
+	<body class="home">
+		<div class="container-grid grid">
+			<header class="primary-header container flex">
+				<img
+					src="./assets/shared/logo.png"
+					alt="Małgorzata Jurkowska logo"
+					class="logo"
+				/>
+				<!-- -------------------------- -->
+				<!-- only for burger menu  -->
+				<button class="mobile-nav-toggle" aria-controls="primary-navigation">
+					<span class="sr-only" aria-expanded="false">Menu</span>
+				</button>
+				<!-- -------------------------- -->
+
+				<nav>
+					<ul
+						id="primary-navigation"
+						data-visible="false"
+						class="primary-navigation flex"
+					>
+						<li class="active">
+							<a class="ff-serif uppercase text-dark" href="index.html">Home</a>
+						</li>
+						<li>
+							<a class="ff-serif uppercase text-dark" href="galeria.html"
+								>Galeria</a
+							>
+						</li>
+						<li>
+							<a class="ff-serif uppercase text-dark" href="cennik.html"
+								>Cennik</a
+							>
+						</li>
+						<li>
+							<a class="ff-serif uppercase text-dark" href="how.html"
+								>Poznajmy się</a
+							>
+						</li>
+						<li>
+							<a class="ff-serif uppercase text-dark" href="contact.html"
+								>Kontakt</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<main class="main">
+				<figure>
+					<img
+						src="./assets/images/home/slide-1.png"
+						alt="newcomers at a party in the garden"
+						class="hero"
+					/>
+					<figcaption class="fs-200">
+						Photo by
+						<a
+							href="https://unsplash.com/@fotopettine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+							>Foto Pettine</a
+						>
+						on
+						<a
+							href="https://unsplash.com/s/photos/marriage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+							>Unsplash</a
+						>
+					</figcaption>
+				</figure>
+			</main>
+		</div>
+		<section
+			id="squares--ornament"
+			class="squares--ornament padding-medium grid"
+		>
+			<div class="square square--ornament flex square--ornament-1">
+				<div class="ornament grid">
+					<img
+						class="triangle"
+						src="./assets/shared/triangle.png"
+						alt="triangle"
+					/>
+					<h2 class="text-dark fs-500 fw-500 text-white">
+						Fotografia portretowa
+					</h2>
+				</div>
+				<div>
+					<a
+						class="btn btn--accent fs-300 uppercase bg-white text-dark"
+						href="galeria.html"
+						>Zobacz</a
+					>
+				</div>
+			</div>
+			<div class="square square--ornament flex square--ornament-2">
+				<div class="ornament grid">
+					<img
+						class="triangle"
+						src="./assets/shared/triangle.png"
+						alt="triangle"
+					/>
+					<h2 class="text-dark fs-500 fw-500 text-white">Fotografia ślubna</h2>
+				</div>
+				<div>
+					<a
+						class="btn btn--accent fs-300 uppercase bg-white text-dark"
+						href="galeria.html"
+						>Zobacz</a
+					>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="section">
+			<div class="about container padding-medium grid">
+				<img
+					class="about__photo"
+					src="./assets/images/home/photographer.png"
+					alt="photographer"
+				/>
+				<div class="ornament grid">
+					<img
+						class="triangle2"
+						src="./assets/shared/triangle2.png"
+						alt="triangle"
+					/>
+					<h2 class="text-dark fs-500 fw-700 text-dark uppercase">
+						Trochę o mnie
+					</h2>
+				</div>
+				<div class="about__info fs-200 flow">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+						temporibus ipsam, exercitationem doloribus fugiat deserunt odit
+						aliquid eum vitae recusandae maiores et ut ea, delectus dolorem
+						explicabo autem doloremque at.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Voluptatibus, inventore. Vitae recusandae quam vel dolorum magni
+						quaerat dolore fugiat, voluptatum, laudantium sint debitis,
+						excepturi numquam tempore dignissimos! Nam recusandae perspiciatis
+						temporibus culpa delectus, expedita voluptatem dicta repudiandae
+						ullam praesentium debitis quasi aut? Laudantium corrupti quo
+						praesentium eaque quidem eius quod.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="my-works" class="my-works flex container">
+			<div class="ornament grid">
+				<img
+					class="triangle2"
+					src="./assets/shared/triangle2.png"
+					alt="triangle"
+				/>
+				<h2 class="text-dark fs-500 fw-700 text-dark uppercase">
+					Sesje zdjęciowe
+				</h2>
+			</div>
+			<ul class="squares--frame my-works__list grid">
+				<li>
+					<figure>
+						<a
+							href="./galeria.html"
+							class="square square--frame flex text-white fs-200"
+						>
+						</a>
+						<figcaption><p>Natalia</p></figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a
+							href="./galeria.html"
+							class="square square--frame flex text-white fs-200"
+						>
+						</a>
+						<figcaption><p>Sesja ślubna w słońcu</p></figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a
+							href="./galeria.html"
+							class="square square--frame flex text-white fs-200"
+						>
+						</a>
+						<figcaption><p>Sesja portretowa</p></figcaption>
+					</figure>
+				</li>
+			</ul>
+		</section>
+		<section id="opinions" class="opinions">
+			<div class="container opinions__box flex">
+				<picture
+					><img
+						src="./assets/images/home/opinion.png"
+						alt="wedding couple"
+						class="couple"
+				/></picture>
+				<div class="slider__box flex">
+					<div class="ornament grid">
+						<img
+							class="triangle2"
+							src="./assets/shared/triangle2.png"
+							alt="triangle"
+						/>
+						<h2 class="text-dark fs-500 fw-700 uppercase">Opinie klientów</h2>
+					</div>
+					<div class="slider">
+						<div class="slide">
+							<div class="testimonial">
+								<blockquote class="testimonial__text text-dark">
+									"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Praesentium rem sint delectus doloribus alias eos optio
+									aliquam quae eius dolorum quam explicabo, suscipit debitis
+									voluptatum impedit minima? Error magnam fuga eligendi hic
+									dicta laboriosam commodi. Placeat ullam accusamus, deserunt,
+									incidunt commodi obcaecati ipsum sit velit impedit fuga,
+									tempora maxime? Eaque."
+								</blockquote>
+								<address class="testimonial__author">
+									<h6 class="testimonial__name fw-700">Jan Kowalski</h6>
+								</address>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="testimonial">
+								<blockquote class="testimonial__text text-dark">
+									"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Praesentium rem sint delectus doloribus alias eos optio
+									aliquam quae eius dolorum quam explicabo, suscipit debitis
+									voluptatum impedit minima? Error magnam fuga eligendi hic di
+								</blockquote>
+								<address class="testimonial__author">
+									<h6 class="testimonial__name fw-700">Adam Nowak</h6>
+								</address>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="testimonial">
+								<blockquote class="testimonial__text text-dark">
+									"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Praesentium rem sint delectus doloribus alias eos optio
+									aliquam quae eius dolorum quam explicabo, suscipit debitis
+									voluptatum impedit minima? Error magnam fuga eligendi hic di
+									luptatum impedit minima? Error magnam fuga eligendi hic di
+								</blockquote>
+								<address class="testimonial__author">
+									<h6 class="testimonial__name fw-700">Jerzy Pospolity</h6>
+								</address>
+							</div>
+						</div>
+
+						<button class="slider__btn slider__btn--left">
+							<img
+								src="./assets/shared/Icon ionic-ios-arrow-back.png"
+								alt="arrow back"
+							/>
+						</button>
+						<button class="slider__btn slider__btn--right">
+							<img
+								src="./assets/shared/Icon ionic-ios-arrow-back-1.png"
+								alt="arrow back"
+							/>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="invite" class="invite flex">
+			<div class="ornament grid">
+				<img
+					class="triangle2"
+					src="./assets/shared/triangle2.png"
+					alt="triangle"
+				/>
+				<h2 class="text-dark fs-500 fw-700 text-dard uppercase">Zapraszam</h2>
+			</div>
+
+			<h4 class="question fw-500 fs-500 margin-medium">
+				Zainteresowany? Chętnie odpowiem na pytania!
+			</h4>
+			<div class="buttons flex">
+				<a
+					class="btn btn--white fs-300 bg-white uppercase text-dark"
+					href="how.html"
+					>Poznajmy się</a
+				><a
+					class="btn btn--contact fs-300 uppercase bg-accent shadow text-white"
+					href="contact.html"
+					>Kontakt</a
+				>
+			</div>
+		</section>
+		<footer id="footer" class="footer container">
+			<div class="container bg-accent2">
+				<div class="footer__lists flex">
+					<div class="col col--1">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-dark fs-200" href="#">Home</a>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="galeria.html"
+									>Galeria</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="cennik.html"
+									>Cennik</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="how.html"
+									>Poznajmy się</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="contact.html"
+									>Kontakt</a
+								>
+							</li>
+						</ul>
+					</div>
+					<img />
+
+					<address class="col col--2">
+						<ul class="nav-links flow">
+							<li class="flex">
+								<img src="./assets/shared/phone-white.png" alt="phone" />
+								<a class="nav-link text-dark fs-200" href="tel:48735178611">
+									+48 12345678</a
+								>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/mail-white.png" alt="mail" />
+
+								<a
+									class="nav-link text-dark fs-200"
+									href="mailto:przykład@przykład.pl"
+									>example@example</a
+								>
+							</li>
+
+							<li class="flex location">
+								<img src="./assets/shared/home-4-white.png" alt="home" />
+
+								<a class="nav-link text-dark fs-200" href="map.html"
+									>ul. Sezamkowa 22/12c <span>12-345 Miasto</span></a
+								>
+							</li>
+						</ul>
+						<ul class="nav-links social-media flex">
+							<li class="flex">
+								<img src="./assets/shared/facebook-fill.png" alt="facebook" />
+								<a href="#" class="nav-link text-white fs-200"> Facebook</a>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/instagram-fill.png" alt="instagram" />
+								<a href="#" class="nav-link text-white fs-200">instagram</a>
+							</li>
+						</ul>
+					</address>
+					<div class="col col--3">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-dark fs-200" href="#">Natalia</a>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="#"
+									>Sesja ślubna w słońcu</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="#"
+									>Sesja portretowa</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright flex">
+					<div class="ornament grid">
+						<img
+							src="./assets/shared/logo.png"
+							alt="Małgorzata Jurkowska logo"
+							class="logo"
+						/>
+						<h2 class="text-accent2 fw-700 fs-200">
+							<!-- Małgorzata Jurkowska Fotograf Mielec -->
+						</h2>
+					</div>
+					<p class="text-accent fs-200">
+						mjurkowska.pl &#169; <span class="year">2022</span>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

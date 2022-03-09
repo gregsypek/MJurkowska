@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Our custom CSS -->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="burger-style.css" />
+
+		<title>Małgorzata Jurkowska | Poznajmy się</title>
+
+		<script defer src="./burger.js"></script>
+	</head>
+	<body class="how flow">
+		<header class="primary-header container flex">
+			<img
+				src="./assets/shared/logo.png"
+				alt="Małgorzata Jurkowska logo"
+				class="logo"
+			/>
+			<!-- -------------------------- -->
+			<!-- only for burger menu  -->
+			<button class="mobile-nav-toggle" aria-controls="primary-navigation">
+				<span class="sr-only" aria-expanded="false">Menu</span>
+			</button>
+			<!-- -------------------------- -->
+
+			<nav>
+				<ul
+					id="primary-navigation"
+					data-visible="false"
+					class="primary-navigation flex"
+				>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="galeria.html"
+							>Galeria</a
+						>
+					</li>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="cennik.html"
+							>Cennik</a
+						>
+					</li>
+					<li class="active">
+						<a class="ff-serif uppercase text-dark" href="how.html"
+							>Poznajmy się</a
+						>
+					</li>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="contact.html"
+							>Kontakt</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="info flex info--hello flow bg-white text-dark border">
+			<div class="offer-text fs-200 flex padding-medium">
+				<p class="border bg-white">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+					nesciunt autem esse iste! Saepe labore vero expedita numquam. Soluta
+					cupiditate pariatur harum a quod, in ullam ad repellendus voluptate
+					omnis.
+				</p>
+				<div>
+					<p class="border bg-white">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+						nesciunt autem esse iste! Saepe labore vero expedita numquam. Soluta
+						cupiditate pariatur harum a quod, in ullam ad repellendus voluptate
+						omnis.
+					</p>
+					<p class="border2 bg-white">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+						fuga, tempore ipsum cupiditate modi autem necessitatibus! Obcaecati
+						provident nihil corrupti.
+					</p>
+				</div>
+			</div>
+			<div class="bar"></div>
+		</section>
+		<section id="invite" class="invite invite--hello flex">
+			<div class="ornament grid"></div>
+
+			<h4 class="question fw-500 fs-500 margin-medium">
+				Zainteresowany? Chętnie odpowiem na pytania!
+			</h4>
+			<div class="buttons flex">
+				<a
+					class="btn btn--contact fs-300 uppercase bg-accent shadow text-white"
+					href="contact.html"
+					>Kontakt</a
+				>
+			</div>
+		</section>
+		<!-- <footer id="footer" class="footer footer--dark">
+			<div class="bg-dark2 container">
+				<div class="footer__lists flex">
+					<div class="col col--1">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-white fs-200" href="#">Home</a>
+							</li>
+							<li>
+								<a class="nav-link text-white fs-200" href="galeria.html"
+									>Galeria</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-white fs-200" href="cennik.html"
+									>Cennik</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-white fs-200" href="how.html"
+									>Poznajmy się</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-white fs-200" href="contact.html"
+									>Kontakt</a
+								>
+							</li>
+						</ul>
+					</div>
+					<img />
+
+					<address class="col col--2">
+						<ul class="nav-links flow">
+							<li class="flex">
+								<img src="./assets/shared/phone-white.png" alt="phone" />
+								<a class="nav-link text-white fs-200" href="tel:48735178611">
+									+48 12345678</a
+								>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/mail-white.png" alt="mail" />
+
+								<a
+									class="nav-link text-white fs-200"
+									href="mailto:przykład@przykład.pl"
+									>example@example</a
+								>
+							</li>
+
+							<li class="flex location">
+								<img src="./assets/shared/home-4-white.png" alt="home" />
+
+								<a class="nav-link text-white fs-200" href="map.html"
+									>ul. Sezamkowa 22/12c <span>12-345 Miasto</span></a
+								>
+							</li>
+						</ul>
+						<ul class="nav-links social-media flex">
+							<li class="flex">
+								<img src="./assets/shared/facebook-fill.png" alt="facebook" />
+								<a href="#" class="nav-link text-white fs-200"> Facebook</a>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/instagram-fill.png" alt="instagram" />
+								<a href="#" class="nav-link text-white fs-200">instagram</a>
+							</li>
+						</ul>
+					</address>
+					<div class="col col--3">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-white fs-200" href="#">Natalia</a>
+							</li>
+							<li>
+								<a class="nav-link text-white fs-200" href="#"
+									>Sesja ślubna w słońcu</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-white fs-200" href="#"
+									>Sesja portretowa</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright flex">
+					<div class="ornament grid">
+						<img
+							src="./assets/shared/logo.png"
+							alt="Małgorzata Jurkowska logo"
+							class="logo"
+						/>
+						<h2 class="text-accent2 fw-700 fs-200"></h2>
+					</div>
+					<p class="text-accent fs-200">
+						mjurkowska.pl &#169; <span class="year">2022</span>
+					</p>
+				</div>
+			</div>
+		</footer> -->
+		<footer id="footer" class="footer container">
+			<div class="container bg-accent2">
+				<div class="footer__lists flex">
+					<div class="col col--1">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-dark fs-200" href="index.html">Home</a>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="galeria.html"
+									>Galeria</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="cennik.html"
+									>Cennik</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="how.html"
+									>Poznajmy się</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="contact.html"
+									>Kontakt</a
+								>
+							</li>
+						</ul>
+					</div>
+					<img />
+
+					<address class="col col--2">
+						<ul class="nav-links flow">
+							<li class="flex">
+								<img src="./assets/shared/phone-white.png" alt="phone" />
+								<a class="nav-link text-dark fs-200" href="tel:48735178611">
+									+48 12345678</a
+								>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/mail-white.png" alt="mail" />
+
+								<a
+									class="nav-link text-dark fs-200"
+									href="mailto:przykład@przykład.pl"
+									>example@example</a
+								>
+							</li>
+
+							<li class="flex location">
+								<img src="./assets/shared/home-4-white.png" alt="home" />
+
+								<a class="nav-link text-dark fs-200" href="map.html"
+									>ul. Sezamkowa 22/12c <span>12-345 Miasto</span></a
+								>
+							</li>
+						</ul>
+						<ul class="nav-links social-media flex">
+							<li class="flex">
+								<img src="./assets/shared/facebook-fill.png" alt="facebook" />
+								<a href="#" class="nav-link text-white fs-200"> Facebook</a>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/instagram-fill.png" alt="instagram" />
+								<a href="#" class="nav-link text-white fs-200">instagram</a>
+							</li>
+						</ul>
+					</address>
+					<div class="col col--3">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-dark fs-200" href="#">Natalia</a>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="#"
+									>Sesja ślubna w słońcu</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="#"
+									>Sesja portretowa</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright flex">
+					<div class="ornament grid">
+						<img
+							src="./assets/shared/logo.png"
+							alt="Małgorzata Jurkowska logo"
+							class="logo"
+						/>
+						<h2 class="text-accent2 fw-700 fs-200">
+							<!-- Małgorzata Jurkowska Fotograf Mielec -->
+						</h2>
+					</div>
+					<p class="text-accent fs-200">
+						mjurkowska.pl &#169; <span class="year">2022</span>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

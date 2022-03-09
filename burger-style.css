@@ -1,0 +1,37 @@
+/* THIS IS THE ONLY ONE PLACE WHEN I USE DESKTOP FIRST APPROACH FOR BURGER MENU*/
+@media (max-width: 550px) {
+	.logo {
+		align-self: flex-start;
+	}
+	.primary-navigation {
+		position: fixed;
+		--gap: 5rem;
+		z-index: 1000;
+		inset: 0 0 0 40%;
+		background: hsl(var(--clr-white));
+		flex-direction: column;
+		transform: translateX(100%);
+		transition: transform 500ms ease-in-out;
+	}
+
+	.primary-navigation[data-visible="true"] {
+		transform: translateX(0);
+	}
+	.mobile-nav-toggle {
+		display: block;
+		position: absolute;
+		z-index: 2000;
+		right: 3rem;
+		top: 7vw;
+		background: transparent;
+		background-image: url(./assets/shared/icon-hamburger.svg);
+		background-repeat: no-repeat;
+		width: 3rem;
+		aspect-ratio: 1;
+		border: 0;
+		cursor: pointer;
+	}
+	.mobile-nav-toggle[aria-expanded="true"] {
+		background-image: url(./assets/shared/icon-close.svg);
+	}
+}

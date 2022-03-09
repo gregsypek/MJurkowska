@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Our custom CSS -->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="burger-style.css" />
+
+		<title>Małgorzata Jurkowska | Kontakt</title>
+
+		<script defer src="./burger.js"></script>
+	</head>
+	<body class="contact flow">
+		<header class="primary-header container flex">
+			<img
+				src="./assets/shared/logo.png"
+				alt="Małgorzata Jurkowska logo"
+				class="logo"
+			/>
+			<!-- -------------------------- -->
+			<!-- only for burger menu  -->
+			<button class="mobile-nav-toggle" aria-controls="primary-navigation">
+				<span class="sr-only" aria-expanded="false">Menu</span>
+			</button>
+			<!-- -------------------------- -->
+
+			<nav>
+				<ul
+					id="primary-navigation"
+					data-visible="false"
+					class="primary-navigation flex"
+				>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="galeria.html"
+							>Galeria</a
+						>
+					</li>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="cennik.html"
+							>Cennik</a
+						>
+					</li>
+					<li>
+						<a class="ff-serif uppercase text-dark" href="how.html"
+							>Poznajmy się</a
+						>
+					</li>
+					<li class="active">
+						<a class="ff-serif uppercase text-dark" href="contact.html"
+							>Kontakt</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="about" class="section">
+			<div class="about container padding-medium grid">
+				<img
+					class="about__photo"
+					src="./assets/images/home/photographer.png"
+					alt="photographer"
+				/>
+				<div class="ornament grid">
+					<img
+						class="triangle2"
+						src="./assets/shared/triangle2.png"
+						alt="triangle"
+					/>
+				</div>
+				<div class="about__info fs-200 flow">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Voluptatibus, inventore. Vitae recusandae quam vel dolorum magni
+						quaerat dolore fugiat, voluptatum, laudantium sint debitis,
+						excepturi numquam tempore dignissimos! Nam recusandae perspiciatis
+						temporibus culpa delectus, expedita voluptatem dicta repudiandae
+						ullam praesentium debitis quasi aut? Laudantium corrupti quo
+						praesentium eaque quidem eius quod.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="contact--data flex flow bg-light">
+			<img class="triangle" src="./assets/shared/triangle.png" alt="triangle" />
+
+			<div class="container contact--container flex">
+				<address class="contact--address flex">
+					<ul class="nav-links flex">
+						<li class="flex">
+							<img src="./assets/shared/phone-fill.png" alt="phone" />
+							<a class="nav-link text-dark fs-200" href="tel:12345678">
+								+48 12345678</a
+							>
+						</li>
+						<li class="flex">
+							<img src="./assets/shared/mail-fill.png" alt="mail" />
+
+							<a
+								class="nav-link text-dark fs-200"
+								href="mailto:przykład@przykład.pl"
+								>przykład@przykład</a
+							>
+						</li>
+
+						<li class="flex location">
+							<img src="./assets/shared/home-4-fill.png" alt="home" />
+
+							<a class="nav-link text-dark fs-200" href="map.html"
+								>ul. Przykładowa 16/12c <span>12-345 Miasto</span></a
+							>
+						</li>
+					</ul>
+					<ul class="nav-links social-media flex">
+						<li class="flex">
+							<img src="./assets/shared/facebook-fill.png" alt="facebook" />
+							<a href="#" class="nav-link text-dark fs-200"> Facebook</a>
+						</li>
+						<li class="flex">
+							<img src="./assets/shared/instagram-fill.png" alt="instagram" />
+							<a href="#" class="nav-link text-dark fs-200">Instagram</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+		</section>
+
+		<section class="map container">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40793.228128538525!2d21.417348288514773!3d50.28116083971023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b4ff4d294d7%3A0x19cc789a16d17201!2sMielec!5e0!3m2!1spl!2spl!4v1640958476148!5m2!1spl!2spl"
+				width="100%"
+				height="100%"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+			></iframe>
+		</section>
+
+		<footer id="footer" class="footer container">
+			<div class="container bg-accent2">
+				<div class="footer__lists flex">
+					<div class="col col--1">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-dark fs-200" href="index.html">Home</a>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="galeria.html"
+									>Galeria</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="cennik.html"
+									>Cennik</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="how.html"
+									>Poznajmy się</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="contact.html"
+									>Kontakt</a
+								>
+							</li>
+						</ul>
+					</div>
+					<img />
+
+					<address class="col col--2">
+						<ul class="nav-links flow">
+							<li class="flex">
+								<img src="./assets/shared/phone-white.png" alt="phone" />
+								<a class="nav-link text-dark fs-200" href="tel:48735178611">
+									+48 12345678</a
+								>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/mail-white.png" alt="mail" />
+
+								<a
+									class="nav-link text-dark fs-200"
+									href="mailto:przykład@przykład.pl"
+									>example@example</a
+								>
+							</li>
+
+							<li class="flex location">
+								<img src="./assets/shared/home-4-white.png" alt="home" />
+
+								<a class="nav-link text-dark fs-200" href="map.html"
+									>ul. Sezamkowa 22/12c <span>12-345 Miasto</span></a
+								>
+							</li>
+						</ul>
+						<ul class="nav-links social-media flex">
+							<li class="flex">
+								<img src="./assets/shared/facebook-fill.png" alt="facebook" />
+								<a href="#" class="nav-link text-white fs-200"> Facebook</a>
+							</li>
+							<li class="flex">
+								<img src="./assets/shared/instagram-fill.png" alt="instagram" />
+								<a href="#" class="nav-link text-white fs-200">instagram</a>
+							</li>
+						</ul>
+					</address>
+					<div class="col col--3">
+						<ul class="nav-links flow">
+							<li>
+								<a class="nav-link text-dark fs-200" href="#">Natalia</a>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="#"
+									>Sesja ślubna w słońcu</a
+								>
+							</li>
+							<li>
+								<a class="nav-link text-dark fs-200" href="#"
+									>Sesja portretowa</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright flex">
+					<div class="ornament grid">
+						<img
+							src="./assets/shared/logo.png"
+							alt="Małgorzata Jurkowska logo"
+							class="logo"
+						/>
+						<h2 class="text-accent2 fw-700 fs-200"></h2>
+					</div>
+					<p class="text-accent fs-200">
+						mjurkowska.pl &#169; <span class="year">2022</span>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

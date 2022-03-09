@@ -4,7 +4,7 @@
 
 **MJurkowska** Website made for fictionall company. Fully responsive with an easy to manage SCSS structure.
 
-just visit [https://pasieka2.netlify.app](https://pasieka2.netlify.app)!
+just visit [https://gregsypek.github.io/MJurkowska](https://gregsypek.github.io/MJurkowska)!
 
 ![alt tag](./assets/screenshots/mjurkowska1.png)
 

@@ -515,7 +515,7 @@ select {
 }
 .info--price {
 	flex-direction: column;
-	background-image: url(/assets/images/offer/component-1.png);
+	background-image: url(assets/images/offer/component-1.png);
 	background-position: left;
 	background-repeat: no-repeat;
 }

@@ -546,7 +546,7 @@ select {
 	height: 100%;
 }
 .info--hello .offer-text {
-	background-image: url(/assets/images/how/photographer22.jpg);
+	background-image: url(assets/images/how/photographer22.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
@@ -558,7 +558,7 @@ select {
 @media (min-width: 768px) {
 	.info--hello .offer-text {
 		background-position: right;
-		background-image: url(/assets/images/how/photographer.jpg);
+		background-image: url(assets/images/how/photographer.jpg);
 	}
 }
 @media (min-width: 1024px) {
@@ -568,7 +568,7 @@ select {
 }
 @media (min-width: 1400px) {
 	.info--hello .offer-text {
-		background-image: url(/assets/images/how/photographer3.jpg);
+		background-image: url(assets/images/how/photographer3.jpg);
 		background-position: center;
 	}
 }
@@ -597,7 +597,7 @@ select {
 
 figure .hero {
 	min-height: 60rem;
-	min-height: 70vh;
+	min-height: 80vh;
 	object-fit: cover;
 	padding: 2rem 0;
 	border: thick double hsl(var(--clr-light));

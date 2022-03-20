@@ -928,6 +928,10 @@ picture .couple {
 	color: hsl(var(--clr-light));
 }
 
+.footer [class^="ri-"] {
+	color: hsl(var(--clr-dark2));
+}
+
 address {
 	font-style: normal;
 }
@@ -1322,6 +1326,9 @@ img.pricing-picture {
 .contact--data .nav-links {
 	--gap: 1.8rem;
 	flex-direction: column;
+}
+.contact--address [class^="ri-"] {
+	color: hsl(var(--clr-light));
 }
 .contact--container {
 	justify-content: center;

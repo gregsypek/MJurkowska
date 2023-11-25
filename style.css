@@ -631,10 +631,10 @@ figure .hero {
 }
 
 .square--ornament:nth-of-type(1) {
-	background-image: url(./assets/images/home/square-bg-1.png);
+	background-image: url(./assets/images/home/square-bg-1.jpeg);
 }
 .square--ornament:nth-of-type(2) {
-	background-image: url(./assets/images/home/square-bg-2.png);
+	background-image: url(./assets/images/home/square-bg-2.jpeg);
 }
 
 @media (min-width: 768px) {
@@ -730,13 +730,13 @@ figure .hero {
 	background-size: cover;
 }
 .my-works__list li:nth-of-type(1) {
-	background-image: url(./assets/images/home/square-sm-1.png);
+	background-image: url(./assets/images/home/square-sm-1.jpeg);
 }
 .my-works__list li:nth-child(2) {
-	background-image: url(./assets/images/home/square-sm-2.png);
+	background-image: url(./assets/images/home/square-sm-2.jpeg);
 }
 .my-works__list li:nth-child(3) {
-	background-image: url(./assets/images/home/square-sm-3.png);
+	background-image: url(./assets/images/home/square-sm-3.jpeg);
 }
 
 @media (min-width: 550px) {
@@ -1066,36 +1066,36 @@ address {
 }
 
 .portrait-session__list li:nth-child(1) {
-	background-image: url(./assets/images/gallery/Natalia.png);
+	background-image: url(./assets/images/gallery/Natalia.jpeg);
 }
 .portrait-session__list li:nth-child(2) {
-	background-image: url(./assets/images/gallery/Kamil.png);
+	background-image: url(./assets/images/gallery/Kamil.jpeg);
 }
 .portrait-session__list li:nth-child(3) {
-	background-image: url(./assets/images/gallery/Martyna.png);
+	background-image: url(./assets/images/gallery/Martyna.jpeg);
 }
 .portrait-session__list li:nth-child(4) {
-	background-image: url(./assets/images/gallery/Asia.png);
+	background-image: url(./assets/images/gallery/Asia.jpeg);
 }
 .portrait-session__list li:nth-child(5) {
-	background-image: url(./assets/images/gallery/Katarzyna.png);
+	background-image: url(./assets/images/gallery/Katarzyna.jpeg);
 }
 
 .portrait-session__list li:nth-child(6) {
-	background-image: url(./assets/images/gallery/Anna.png);
+	background-image: url(./assets/images/gallery/Anna.jpeg);
 }
 
 .portrait-session__list li:nth-child(7) {
-	background-image: url(./assets/images/gallery/Kamila.png);
+	background-image: url(./assets/images/gallery/Kamila.jpeg);
 }
 .portrait-session__list li:nth-child(8) {
-	background-image: url(./assets/images/gallery/Marek.png);
+	background-image: url(./assets/images/gallery/Marek.jpeg);
 }
 .portrait-session__list li:nth-child(9) {
-	background-image: url(./assets/images/gallery/Daria.png);
+	background-image: url(./assets/images/gallery/Daria.jpeg);
 }
 .portrait-session__list li:nth-child(10) {
-	background-image: url(./assets/images/gallery/Mateusz.png);
+	background-image: url(./assets/images/gallery/Mateusz.jpeg);
 }
 
 /* --------------------------------- */

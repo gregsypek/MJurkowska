@@ -52,7 +52,7 @@
 	--shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 	/* container-width */
-	--containerWidth: 1600px;
+	--containerWidth: 1400px;
 }
 
 @media (min-width: 425px) {
@@ -111,6 +111,9 @@ html {
 	}
 }
 
+/* * {
+	border:1px solid grey;
+} */
 /*-------- Reset margins ----- */
 body,
 h1,
@@ -145,6 +148,8 @@ body {
 	background-color: hsl(var(--clr-white));
 	line-height: 1.5;
 	min-height: 100vh;
+	max-width: var(--containerWidth);
+	margin: 0 auto;
 
 	/* display: grid;
 	grid-template-rows: min-content 1fr; */
@@ -193,7 +198,7 @@ select {
 .container {
 	width: 100%;
 	max-width: 1920px;
-	padding-inline: 4rem;
+	/* padding-inline: 4rem; */
 	margin-inline: auto;
 }
 
@@ -257,7 +262,8 @@ select {
 /*------ margins / paddings-----*/
 
 .margin-medium {
-	margin-block: var(--margin);
+	/* margin-block: var(--margin); */
+	margin: var(--margin) auto;
 }
 .padding-medium {
 	padding: var(--padding);
@@ -393,8 +399,8 @@ select {
 	place-items: center;
 	position: relative;
 	background-repeat: no-repeat;
-	width: 50%;
-	max-width: 28rem;
+	/* width: 50%;
+	max-width: 28rem; */
 }
 .triangle {
 	transform: rotate(45deg);
@@ -625,8 +631,11 @@ figure .hero {
 
 /*----- fotografia portetowa / fotografa ślubna-- */
 .squares--ornament {
+	/* display: flex; */
 	--gap: 3.5rem;
-	width: 100%;
+	/* width: 100%; */
+	/* max-width: var(--containerWidth);  */
+	/* margin:0 auto; */
 	grid-template-columns: 1fr;
 }
 
@@ -650,7 +659,7 @@ figure .hero {
 		"img"
 		"p";
 	--gap: min(11rem, 8vw);
-	justify-items: center;
+	justify-content: space-between;
 	width: 100%;
 }
 .about .ornament {
@@ -658,8 +667,8 @@ figure .hero {
 }
 .about__photo {
 	grid-area: img;
-	width: 70vw;
-	max-height: 35rem;
+	/* width: 70vw; */
+	/* max-height: 35rem; */
 	object-fit: cover;
 	object-position: top center;
 	align-self: center;
@@ -670,7 +679,7 @@ figure .hero {
 .about__info {
 	grid-area: p;
 	line-height: 140%;
-	max-width: 70vw;
+	/* max-width: 70vw; */
 	text-align: center;
 }
 @media (min-width: 425px) {
@@ -710,8 +719,8 @@ figure .hero {
 	align-items: center;
 	--gap: 5rem;
 	/* outline: 1px solid green; */
-	padding: 4.5rem 0;
-	padding-inline: 4rem;
+	/* padding: 4.5rem 0; */
+	/* padding-inline: 4rem; */
 }
 .squares--frame {
 	list-style: none;
@@ -723,7 +732,7 @@ figure .hero {
 	--gap: min(13vw, 9rem);
 }
 .my-works .squares--frame {
-	width: 90%;
+	width: 97%;
 }
 .squares--frame li {
 	background-position: center;
@@ -773,7 +782,7 @@ picture .couple {
 @media (min-width: 768px) {
 	.opinions__box {
 		flex-direction: row;
-		padding-inline: 3.6rem;
+		/* padding-inline: 3.6rem; */
 	}
 	.opinions__box picture {
 		flex-basis: 45%;
@@ -900,10 +909,9 @@ picture .couple {
 }
 
 /* -------------footer ---------------*/
-.footer {
-	/* padding-block: 5rem; */
-	padding: 2rem;
-}
+/* .footer {
+
+} */
 .footer.footer--dark {
 	padding: 0;
 	outline: thick double hsl(var(--clr-white));
@@ -1180,7 +1188,7 @@ address {
 
 .banner {
 	position: relative;
-	width: 100vw;
+	/* width: 100vw; */
 	height: clamp(15rem, 19vw, 28rem);
 }
 .banner .btn {
@@ -1360,7 +1368,6 @@ img.pricing-picture {
 	margin: 0 auto;
 	padding: 0;
 	height: 30rem;
-	width: 95vw;
 	justify-content: flex-end;
 }
 /* because only this footer should have no margin */

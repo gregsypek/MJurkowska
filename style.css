@@ -427,6 +427,7 @@ select {
 	aspect-ratio: 1/1;
 	background-size: cover;
 	background-position: center;
+	
 }
 .square::after {
 	content: "";
@@ -476,7 +477,8 @@ select {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	aspect-ratio: 1/1.1;
+	aspect-ratio: 1/1;
+
 }
 
 /* ---------buttons------- */
@@ -637,13 +639,25 @@ figure .hero {
 	/* max-width: var(--containerWidth);  */
 	/* margin:0 auto; */
 	grid-template-columns: 1fr;
+	
+	
 }
+
 
 .square--ornament:nth-of-type(1) {
 	background-image: url(./assets/images/home/square-bg-1.jpeg);
+	
 }
 .square--ornament:nth-of-type(2) {
 	background-image: url(./assets/images/home/square-bg-2.jpeg);
+	
+}
+.square--ornament:nth-of-type(1),
+.square--ornament:nth-of-type(2) {
+	transition: filter 0.3s ease-in-out;
+	&:hover {
+		filter: brightness(1.2);
+	}
 }
 
 @media (min-width: 768px) {
@@ -1062,19 +1076,24 @@ address {
 	display: block;
 } */
 .sessions__list li:hover > img {
-	/* border-bottom: var(--border); */
+	border-bottom: var(--border);
 	display: block;
 }
 .sessions__list a:hover,
 .sessions__list a:focus {
 	cursor: pointer;
 	/* border-bottom: var(--border); */
-	/* background-image: url(/assets/shared/triangle.png);
-	background-position: center; */
+	background-image: url(/assets/shared/triangle.png);
+	background-position: center;
+}
+a.session--portret.active, 
+a.session--wedding.active{
+	background-image: url(/assets/shared/triangle.png);
+	color:hsl(var(--clr-light));
 }
 
 .portrait-session__list li:nth-child(1) {
-	background-image: url(./assets/images/gallery/Natalia.jpeg);
+	background-image: url(./assets/images/wedding/wedding2.jpg);
 }
 .portrait-session__list li:nth-child(2) {
 	background-image: url(./assets/images/gallery/Kamil.jpeg);
@@ -1086,7 +1105,7 @@ address {
 	background-image: url(./assets/images/gallery/Asia.jpeg);
 }
 .portrait-session__list li:nth-child(5) {
-	background-image: url(./assets/images/gallery/Katarzyna.jpeg);
+	background-image: url(./assets/images/wedding/wedding5.jpg);
 }
 
 .portrait-session__list li:nth-child(6) {
@@ -1100,10 +1119,10 @@ address {
 	background-image: url(./assets/images/gallery/Marek.jpeg);
 }
 .portrait-session__list li:nth-child(9) {
-	background-image: url(./assets/images/gallery/Daria.jpeg);
+	background-image: url(./assets/images/wedding/wedding6.jpg);
 }
 .portrait-session__list li:nth-child(10) {
-	background-image: url(./assets/images/gallery/Mateusz.jpeg);
+	background-image: url(./assets/images/wedding/wedding1.jpg);
 }
 
 /* --------------------------------- */
